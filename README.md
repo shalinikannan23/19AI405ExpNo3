@@ -54,8 +54,6 @@ Push node 0 into queue and mark it visited.
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/0e9ce012-8e1f-43d7-b7b9-c0fb19fe0c3f)
 
-
-
 Push node 0 into queue and mark it visited.
 
 
@@ -65,19 +63,15 @@ Remove node 0 from the front of queue and visit the unvisited neighbours and pus
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/67d8fa3b-ce9e-46c2-9dd7-089e204e667a)
 
-
 Step 4:
 
 Remove node 1 from the front of queue and visit the unvisited neighbours and push them into queue.
 
-
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b0cf0fde-8a86-41cb-a054-36875ac24ab0)
-
 
 Step 5: 
 
 Remove node 2 from the front of queue and visit the unvisited neighbours and push them into queue.
-
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8968a163-6b3a-4f7e-8ad4-bbf24f326b9b)
 
@@ -86,15 +80,12 @@ Step 6:
 Remove node 3 from the front of queue and visit the unvisited neighbours and push them into queue. 
 As we can see that every neighbours of node 3 is visited, so move to the next node that are in the front of the queue.
 
-
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/7a1c1b16-ea69-497f-a099-8440200f6dc0)
-
 
 Steps 7: 
 
 Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue. 
 As we can see that every neighbours of node 4 are visited, so move to the next node that is in the front of the queue.
-
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8e16ffa3-c3d6-4774-822b-6eb84adedad9)
 
@@ -184,11 +175,8 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
-
 <hr>
 <h3> Sample Input </h3>
-
-
 <hr>
 7 9 <BR>
 A B <BR>
@@ -202,17 +190,14 @@ D G <BR>
 G F <BR>
 <hr>
 
-
 <h3>Sample Output</h3>
 <hr>
-
 
 ['A', 'B', 'C', 'F', 'E', 'D', 'G']
 
 <hr>
 
 <hr>
-
 
 <h3>Sample Input</h3>
 
@@ -227,7 +212,6 @@ G F <BR>
 3 4 <BR>
 <hr>
 
-
 <h3>Sample Output</h3>
 
 <hr>
@@ -238,15 +222,10 @@ G F <BR>
 
 ![WhatsApp Image 2024-02-22 at 23 23 41_00a37561](https://github.com/PriyankaAnnadurai/19AI405ExpNo3/assets/118351569/dad58095-4267-48c3-9093-b9085a8ced35)
 
-
 ![WhatsApp Image 2024-02-22 at 23 24 32_356fcb65](https://github.com/PriyankaAnnadurai/19AI405ExpNo3/assets/118351569/c42c3a53-9203-43bd-9cb4-189c3f09a167)
 
-
 <h3> Result: </h3>
-
-
 <hr>
-
 <p>
   Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.
 </p>
